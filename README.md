@@ -139,18 +139,6 @@ version = project.version(1)
 dataset = version.download("yolov8")
 ```
 
-### ⚠️ API Key Security
-
-Never commit your Roboflow API key to GitHub.
-
-Use an environment variable instead:
-
-```python
-import os
-from roboflow import Roboflow
-
-rf = Roboflow(api_key=os.environ["ROBOFLOW_API_KEY"])
-```
 
 ## 🚀 Training
 
